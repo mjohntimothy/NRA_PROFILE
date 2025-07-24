@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allada Akshitha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+      body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1c1c1c, #2e2e2e);
+    color: #f0f0f0;
+    box-sizing: border-box;
+}
+header {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 255, 150, 0.5);
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #00ffcc;
+    box-shadow: 0 0 25px #00ffcc;
+}
+.header-text h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    position: relative;
+}
+nav a:hover {
+    color: #00ffd5;
+    text-shadow: 0 0 5px #00ffd5;
+    transform: scale(1.1);
+}
+nav a.active {
+    border-bottom: 2px solid #00ffd5;
+}
+.section {
+    padding: 2rem;
+    animation: fadeIn 1s ease;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 2rem auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.3);
+}
+.section h2, h1 {
+    text-align: center;
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+}
+ul li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+a {
+    color: #00ffcc;
+}
+a:hover {
+    color: #00e6ff;
+    text-shadow: 0 0 10px #00e6ff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f1f1f;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #444;
+    color: #f0f0f0;
+    transition: transform 0.3s;
+}
+table th {
+    background-color: #00ffd5;
+    color: #000;
+}
+table td:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+footer {
+    background: #101010;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    box-shadow: 0 -3px 10px rgba(0, 255, 150, 0.3);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="akshitha.png" alt="Profile Photo" class="profile-photo">
+            <div class="header-text">
+                <h1>Allada Akshitha</h1>
+                <p>B.Tech Student | Specialization in Full Stack | Enthusiastic Learner</p>
+            </div>
+        </div>
+        <nav>
+            <a href="#about" class="active">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="section about" id="about">
+        <h2>ABOUT ME</h2>
+        <p>Hello! I'm Korada Nikitha, a passionate B.Tech student specializing in Computer Science. I love exploring technologies like web development and data science. My goal is to innovate and solve real-world problems through coding.</p>
+    </div>
+    <div class="section about" id="about">
+        <h2>CAREER OBJECTIVE:</h2>
+        <p>Seeking as position as a software developer within a solid team of professionals, that can utilize my broad skills and knowledge, provides opportunities for further growth and administers complex information systems that have software interfaces.</p>
+    </div>
+    <div class="section about" id="about">
+     <h1>Educational Qualification</h1>
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Discipline/Specialization</th>
+            <th>College</th>
+            <th>Board/University</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>B.Tech.</td>
+            <td>CSE</td>
+            <td>Avanthi’s ST THERESSA Institute of Engineering and Technology, Garividi</td>
+            <td>JNTUGV</td>
+            <td>Persuing</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>MPC</td>
+            <td>Apex Junior College, Vizianagaram</td>
+            <td>BIE</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>10th</td>
+            <td>English Medium</td>
+            <td>Abhays E.M. School, Garividi</td>
+            <td>SSC</td>
+            <td>9.3 GPA</td>
+        </tr>
+    </table>
+
+    </div>
+	<div class="section skills" id="skills">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Proficiency in communication skills.</li>
+			<li>Good quantitative aptitude along with excellent grasping power and eagerness to learn.</li>
+			<li>Quick learner and ability to work under pressure</li>
+			<li>Strongly initiative, creative and able to learn new technologies and systems.</li>
+			<li>Hardworking self-starter who can prioritize in order to meet deadlines.</li>
+			<li> Self-motivated and self-reliant, capable of working as part of a team.</li>
+
+        </ul>
+    </div>
+	
+    <div class="section skills" id="skills">
+        <h2>TECHNICAL SKILLS</h2>
+        <ul>
+            <li>Programming: C, C++, Java, Python</li>
+            <li>Web Development: HTML, CSS, JavaScript, React</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Tools: Git, VS Code</li>
+        </ul>
+    </div>
+    <div class="section skills" id="skills">
+        <h2>ROLES AND RESPONSIBILITIES:</h2>
+        <ul>
+            <li>Implementing programs</li>
+            <li>Implementing engineering projects</li>
+            <li>Trouble Shooting the computer</li>
+        </ul>
+    </div>
+
+    <div class="section projects" id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Project 1:</strong> <a href="../attendance/index.html" target="_blank">Faculty Attendance Management</a> - System for managing faculty attendance records.</li>
+            <li><strong>Project 2:</strong> <a href="../hospital/index.html" target="_blank">Hospital Management</a> - Comprehensive hospital operation system.</li>
+        </ul>
+    </div>
+ <div class="section about" id="about">
+    <h1>Personal Information</h1>
+    <table>
+        <tr>
+            <th>Father's Name</th>
+            <td>ALLADA SRINIVAS RAO</td>
+        </tr>
+        <tr>
+            <th>Mother's Name</th>
+            <td>ALLADA LAVANYA</td>
+        </tr>
+        <tr>
+            <th>Date of Birth</th>
+            <td>22-06-2004</td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <th>Civilian</th>
+            <td>Indian</td>
+        </tr>
+        <tr>
+            <th>Languages Known</th>
+            <td>Telugu, English, Hindi</td>
+        </tr>
+        <tr>
+            <th>Permanent Address</th>
+            <td>Allada Akshitha </br> DOOR NO: 4/3, </br>BESIDE SBI ATM, </br>SHREERAMNAGAR,</br> GARIVIDI-535101.</td>
+        </tr>
+    </table>
+ </div>
+    <div class="section contact" id="contact">
+        <h2>Contact : 9291909872</h2>
+        <p>Email: alladaakshitha1@gmail.com</p>
+        <p>LinkedIn: <a href="" target="_blank"><i class="fab fa-linkedin"></i> akshitha</a></p>
+        <p>GitHub: <a href=" target="_blank"><i class="fab fa-github"></i> akshitha</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Allada Akshitha Email : alladaakshitha1@gmail.com. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add active class to the current navigation link
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
